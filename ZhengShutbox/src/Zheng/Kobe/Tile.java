@@ -22,6 +22,10 @@ public class Tile {
 	public void putDown() {
 		isUp = false;
 	}
+	public void putUp() {
+		isUp = true;
+	}
+	
 	public boolean selected() {
 		return selected;
 	}
